@@ -1,0 +1,25 @@
+.header{
+	display: flex;
+	justify-content: center;
+	padding: 15px;
+	margin: 25px;
+	background-color: #ddd
+}
+.container{
+	display: grid;
+	grid-gap: 1em;
+}
+.container div{
+	border: 2px #644646 solid;
+	background-color: #378678 
+}
+.header div{
+	border: 2px #ccc solid;
+	padding: 35px;
+}
+body{
+	background-color: black; 
+}
+.container .box6{
+	grid-row: 1/ span 3;
+}
