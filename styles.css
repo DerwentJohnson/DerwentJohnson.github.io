@@ -28,16 +28,31 @@ body{
 	background-color: #C5C6C7;
 	 
 }
+#contacts div{
+	float: bottom;
+}
 img{
 	display: block;
 	margin: 10px auto;
 	border-radius: 250px;
 }
 .box{
-	display: grid;
-	/*grid-template-columns: 70% 30%;
-	border-color: #564ad4;*/
+	/*display: grid;*/
+	grid-template-columns: 70% 30%;
+	border-color: #564ad4;
 }
-p{
-	float:right;	
+
+.p{
+	display: flex;
+
+}
+.c1{
+border:1px;
+width: auto;
+}
+.c2{
+border: 1px;
+flex-wrap: wrap;
+width: 80%;
+padding-left: 20px; 
 }
